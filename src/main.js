@@ -9,8 +9,6 @@ import './styles/styles.scss';
 
 axios.defaults.baseURL='http://localhost/javascript/vue/vuephpcrud'
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8'
-//axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
-//axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8'
 
 new Vue({
   el: '#app',
