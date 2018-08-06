@@ -1,0 +1,18 @@
+// Import Open sans from Google fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// Set font family
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+// Spacers
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: ($spacer * 0.9),
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 6),
+  7: ($spacer * 12)
+);
