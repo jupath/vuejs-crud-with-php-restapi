@@ -1,7 +1,7 @@
 # Simple VueJS CRUD project with PHP/MySQL backend
 
-Frontend: VueJS, Vuex, Vue Router, Vuelidate form validation
-Backend (REST API): PHP, MySQL
+> Frontend: VueJS, Vuex, Vue Router, Vuelidate form validation  
+> Backend (REST API): PHP, MySQL
 
 ## Build Setup
 
