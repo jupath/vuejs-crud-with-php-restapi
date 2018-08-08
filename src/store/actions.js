@@ -57,7 +57,6 @@ const actions = {
 
     axios.post('/api.php?action=delete', data)
       .then(res => {
-        console.log(res);
         if (!res.data.error) {
           commit(types.DELETE_USER, id);
           commit(types.ADD_NEW_USER_ERROR, false);

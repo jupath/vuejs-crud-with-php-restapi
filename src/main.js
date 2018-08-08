@@ -14,8 +14,5 @@ new Vue({
   el: '#app',
   router,
   store,
-  created() {
-    store.dispatch('fetchUsers')
-  },
   render: h => h(App)
 })

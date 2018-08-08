@@ -153,8 +153,8 @@
           </label>
         </div>
       </div>
-      <div class="text-danger font-weight-bold py-3" v-if="error">{{ error }}</div>
-      <button type="submit" class="btn btn-primary">Save</button>
+      <div id="error-message" class="text-danger font-weight-bold py-3" v-if="error">{{ error }}</div>
+      <button id="form-submit" type="submit" class="btn btn-primary">Save</button>
     </form>
   </div>
 </template>

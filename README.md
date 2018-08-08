@@ -1,7 +1,8 @@
-# Simple VueJS CRUD project with PHP/MySQL backend
+# Simple VueJS CRUD project with PHP/MySQL backend. Tested with Vue Test Utils + Jest
 
 > Frontend: VueJS, Vuex, Vue Router, Vuelidate form validation  
-> Backend (REST API): PHP, MySQL
+> Backend (REST API): PHP, MySQL  
+> Test: Vue Test Utils + Jest
 
 ## Build Setup
 

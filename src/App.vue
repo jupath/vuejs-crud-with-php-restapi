@@ -11,6 +11,9 @@
 import Header from './components/Header';
 
 export default {
+  created() {
+    this.$store.dispatch('fetchUsers');
+  },
   components: {
     appHeader: Header,
   }

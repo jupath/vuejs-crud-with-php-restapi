@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue should render App correctly 1`] = `
+<div id="app">
+  <appheader-stub></appheader-stub>
+  <div class="container">
+    <router-view-stub name="default"></router-view-stub>
+  </div>
+</div>
+`;

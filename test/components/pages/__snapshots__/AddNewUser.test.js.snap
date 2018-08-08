@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewUser.vue should render AddNewUser correctly 1`] = `
+<div>
+  <h3 class="text-center">Add new user</h3>
+  <appuserform-stub userprop="[object Object]" formtype="addNewUser"></appuserform-stub>
+</div>
+`;

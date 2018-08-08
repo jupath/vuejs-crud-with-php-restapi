@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard.vue should render Dashboard correctly 1`] = `
+<div>
+  <div>
+    <div class="text-center text-sm-right pt-2 pb-4">
+      <router-link-stub to="/addnew" tag="a" event="click" class="btn btn-success">Add new user</router-link-stub>
+    </div>
+    <div class="table-responsive-md">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Country</th>
+            <th>Services</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <appuserlistitem-stub user="[object Object]"></appuserlistitem-stub>
+          <appuserlistitem-stub user="[object Object]"></appuserlistitem-stub>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

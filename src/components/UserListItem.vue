@@ -6,9 +6,9 @@
     <td>{{ user.country }}</td>
     <td>{{ user.services }}</td>
     <td class="text-right">
-      <button class="btn btn-info btn-sm" @click="showDetailsModal = true">Details</button>
+      <button id="details" class="btn btn-info btn-sm" @click="showDetailsModal = true">Details</button>
       <router-link class="btn btn-success btn-sm" :to="`/edituser/${user.id}`">Edit</router-link>
-      <button class="btn btn-danger btn-sm" @click="showDeleteModal = true">Delete</button>
+      <button id="delete-modal" class="btn btn-danger btn-sm" @click="showDeleteModal = true">Delete</button>
     </td>
     <!-- Modal Delete -->
     <app-modal v-if="showDeleteModal" >
@@ -21,6 +21,7 @@
       <div slot="footer">
         <button
           type="button"
+          id="delete"
           class="btn btn-danger"
           @click="handleDeleteUser"
         >
